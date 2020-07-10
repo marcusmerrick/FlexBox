@@ -1,0 +1,90 @@
+/* Body */
+
+body {
+    background-color: aqua;
+}
+
+
+/* Pic Holder Div */
+
+.picHolder {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: wrap;
+
+
+
+}
+
+/* Title Box */
+
+.heading {
+    display: flex;
+    flex:2;
+    order: 1;
+
+}
+
+
+/* Cat images */
+
+.cat1 {
+    flex:1;
+    order: 2;
+    padding: 5px;
+
+}
+
+.cat2{
+    flex:1;
+    order: 3;
+    padding: 5px;
+}
+
+.cat3{
+    flex:1;
+    order: 2;
+    padding: 5px;
+}
+
+.cat4 {
+    flex:1;
+    order: 3;
+    padding: 5px;
+}
+
+.cat5 {
+    flex:1;
+    order: 2;
+    padding: 5px;
+}
+
+.cat6 {
+    flex:1;
+    order: 3;
+    padding: 5px;
+}
+
+.cat7 {
+    flex:1;
+    order: 2;
+    padding: 5px;
+}
+
+.cat8 {
+    flex:1;
+    order: 3;
+    padding: 5px;
+}
+
+.cat9 {
+    flex:1;
+    order: 2;
+    padding: 5px;
+}
+
+.cat10 {
+    flex:1;
+    order: 3;
+    padding: 5px;
+}
