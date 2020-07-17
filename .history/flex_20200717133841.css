@@ -3,34 +3,23 @@
 body {
     background-color: aqua;
     height: 100%;
+    align-items cent
 }
 
 /* Main */
 .main {
-    display: flex;
+    display: inline-flex;
    flex-flow: column;
     height: 100%;
-    align-items: baseline;
-    align-content: center;
-    @media screen and (min-width: 472px) {
-        display: flex;
-        .heading {
-            flex: 1
-        }
-        .picHolder{
-            flex: 2
-        }
-    }
+    align-items: center;
 }
 
 /* Title Box */
 
 .heading {
-    float: left;
     display: flex;
     flex-flow: column;
     height: 100%;
-    align-self: flex-start;
     order: 1;
 
 }
@@ -42,7 +31,7 @@ body {
     display: flex;
     align-items: flex-start;
     flex-flow: wrap;
-    align-self: flex-end;
+    min-width: 500px;
     order: 2;
     
 

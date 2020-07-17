@@ -12,21 +12,14 @@ body {
     height: 100%;
     align-items: baseline;
     align-content: center;
-    @media screen and (min-width: 472px) {
+    @media screen and (min-width: ) {
         display: flex;
-        .heading {
-            flex: 1
-        }
-        .picHolder{
-            flex: 2
-        }
     }
 }
 
 /* Title Box */
 
 .heading {
-    float: left;
     display: flex;
     flex-flow: column;
     height: 100%;
@@ -43,6 +36,9 @@ body {
     align-items: flex-start;
     flex-flow: wrap;
     align-self: flex-end;
+    @media screen and (min-width: 700px) {
+        display: flex
+    }
     order: 2;
     
 

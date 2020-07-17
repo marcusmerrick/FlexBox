@@ -26,7 +26,6 @@ body {
 /* Title Box */
 
 .heading {
-    float: left;
     display: flex;
     flex-flow: column;
     height: 100%;

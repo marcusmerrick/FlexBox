@@ -14,7 +14,7 @@ body {
     align-content: center;
     @media screen and (min-width: 472px) {
         display: flex;
-        .heading {
+        .h {
             flex: 1
         }
         .picHolder{
@@ -26,7 +26,6 @@ body {
 /* Title Box */
 
 .heading {
-    float: left;
     display: flex;
     flex-flow: column;
     height: 100%;

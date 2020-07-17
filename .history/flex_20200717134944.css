@@ -18,7 +18,7 @@ body {
             flex: 1
         }
         .picHolder{
-            flex: 2
+            
         }
     }
 }
@@ -26,7 +26,6 @@ body {
 /* Title Box */
 
 .heading {
-    float: left;
     display: flex;
     flex-flow: column;
     height: 100%;

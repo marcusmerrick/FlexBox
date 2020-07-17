@@ -14,19 +14,13 @@ body {
     align-content: center;
     @media screen and (min-width: 472px) {
         display: flex;
-        .heading {
-            flex: 1
-        }
-        .picHolder{
-            flex: 2
-        }
+        .heading
     }
 }
 
 /* Title Box */
 
 .heading {
-    float: left;
     display: flex;
     flex-flow: column;
     height: 100%;
